@@ -1,5 +1,5 @@
        const Discord = require("discord.js");
-	   const prefix = '+'
+	   const prefix = '**'
 const client = new Discord.Client();
 client.on('ready', () => {
   client.user.setGame(`Broadcast`,'https://www.twitch.tv/v5bz');
